@@ -1,0 +1,49 @@
+Here are the steps to install the stable versions of Git, Java, Maven, and Jenkins on a Windows local computer and set the environment variables:
+
+Install Git:
+1. Go to the Git download page (https://git-scm.com/downloads) and select the latest stable version of Git.
+
+2. Download the Git installer for Windows and run it.
+
+3. Follow the prompts to complete the installation process, and choose the default options for all settings.
+
+4. Once the installation is complete, open the "Environment Variables" window by searching for "Environment Variables" in the Windows search bar.
+
+5. Under "System Variables," edit the "Path" variable and add "C:\Program Files\Git\bin" and "C:\Program Files\Git\cmd" to the list of paths.
+
+
+
+Install Java:
+1. Go to the Java SE Development Kit (JDK) download page (https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) and select the latest stable version of JDK for your operating system.
+
+2. Click on the "Download" button and accept the license agreement.
+
+3. Download and run the JDK installer, and follow the prompts to complete the installation process.
+
+4. Once the installation is complete, open the "Environment Variables" window again and under "System Variables," click on "New" and add a new variable "JAVA_HOME" with the path to the JDK installation directory (e.g., C:\Program Files\Java\jdk1.8.0_291).
+
+5. Edit the "Path" variable and add "%JAVA_HOME%\bin" to the list of paths.
+
+
+
+Install Maven:
+1. Go to the Apache Maven download page (https://maven.apache.org/download.cgi) and select the latest stable version of Maven.
+
+2. Download the Maven binary zip archive and extract it to a suitable directory on your computer (e.g., C:\Program Files\Maven).
+
+3. Open the "Environment Variables" window again and under "System Variables," click on "New" and add a new variable "MAVEN_HOME" with the path to the Maven installation directory (e.g., C:\Program Files\Maven\apache-maven-3.8.4).
+
+4. Edit the "Path" variable and add "%MAVEN_HOME%\bin" to the list of paths.
+
+
+
+Install Jenkins:
+1. Go to the Jenkins download page (https://www.jenkins.io/download/) and select the latest stable version of Jenkins.
+
+2. Download the Jenkins installer for Windows and run it.
+
+3. Follow the prompts to complete the installation process, and choose the option to run Jenkins as a Windows service.
+
+4. Once the installation is complete, open your web browser and navigate to http://localhost:8080/ to access the Jenkins web interface.
+
+That's it! You should now have the stable versions of Git, Java, Maven, and Jenkins installed on your Windows local computer, and the environment variables set up correctly.
