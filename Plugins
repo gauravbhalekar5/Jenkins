@@ -1,0 +1,10 @@
+Maven Integration plugin
+Version3.21
+This plugin provides a deep integration between Jenkins and Maven. It adds support for automatic triggers between projects depending on SNAPSHOTs as well as the automated configuration of various Jenkins publishers such as Junit.
+
+
+Maven Invoker plugin
+Version2.5
+This plugin will parse result files produced by the maven-invoker-plugin
+
+
