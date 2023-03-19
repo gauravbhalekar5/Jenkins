@@ -8,3 +8,11 @@ Version2.5
 This plugin will parse result files produced by the maven-invoker-plugin
 
 
+Role-based Authorization StrategyVersion
+Enables user authorization using a Role-Based strategy. Roles can be defined globally or for particular jobs or nodes selected by regular expressions.
+
+
+
+
+
+
