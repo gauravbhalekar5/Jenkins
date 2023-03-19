@@ -28,3 +28,18 @@ Go to /opt
 # mv apache-maven-3.9.1 maven  //We are renaming package name but this is optional.
 
 Now we need to setup maven path in environment variable
+# vi .bash_profile
+M2_HOME=/opt/maven
+M2=/opt/maven/bin
+
+:$M2_HOME:$M2
+
+Note: Logout from root user nad again login as root user. It means we are taking restart to take effect.
+
+# mvn -version
+# echo $M2_HOME
+# echo $M2
+
+Step3: 
+
+# mvn archetype:generate | grep maven-archetype-webapp
