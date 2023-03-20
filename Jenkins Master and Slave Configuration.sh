@@ -16,6 +16,12 @@ Note: Logout from root user nad again login as root user. It means we are taking
 # echo $JAVA_HOME
 /usr/lib/jvm/java-11  //If you see the output like this then you set env ariable correctly.
 
+exactly looks like as below 
+JAVA_HOME=/usr/lib/jvm/java-11
+
+PATH=$PATH:$HOME/bin:$JAVA_HOME
+
+export PATH
 -------------------------------------------------------------------------------------------------------
 
 Step2:
@@ -91,3 +97,5 @@ Note: Logout from root user nad again login as root user. It means we are taking
 
 # cd /opt
 # mkdir /opt/Jenkins  // We need to create one directory or workspace for Remote root directory
+
+# chown -R ec2-user:ec2-user /opt/Jenkins
