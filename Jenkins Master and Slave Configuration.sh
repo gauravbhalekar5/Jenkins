@@ -46,7 +46,7 @@ https://pkg.jenkins.io/redhat-stable/
 
 -------------------------------------------------------------------------------------------------------
 
-Step3:
+Step3: On Master Node
 
 Click on Manage Jenkins:
 Click on Manage nodes and clouds:
