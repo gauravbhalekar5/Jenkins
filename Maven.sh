@@ -46,5 +46,5 @@ Step3:
 
 mvn archetype:generate is a command used in Apache Maven, a popular build automation and project management tool for Java-based applications, to generate a new Maven project structure using a project template, known as an archetype.
 
-==========================================================================================================
+
 
