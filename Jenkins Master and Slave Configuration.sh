@@ -99,3 +99,10 @@ Note: Logout from root user nad again login as root user. It means we are taking
 # mkdir /opt/Jenkins  // We need to create one directory or workspace for Remote root directory
 
 # chown -R ec2-user:ec2-user /opt/Jenkins
+
+
+
+
+
+Free Swap Space and Free Temp Space Issue:
+
